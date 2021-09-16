@@ -1,1 +1,7 @@
-/// <reference types="react-scripts" />
+
+interface RecorderState {
+    recordingStatus: RecordingStatus,
+    blobURL: string,
+    isBlocked: boolean,
+    description: string
+}

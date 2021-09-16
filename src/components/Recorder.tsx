@@ -13,13 +13,6 @@ enum RecordingStatus {
     STOP
 }
 
-interface RecorderState {
-    recordingStatus: RecordingStatus,
-    blobURL: string,
-    isBlocked: boolean,
-    description: string
-}
-
 
 const styles = {
     height: 100,
