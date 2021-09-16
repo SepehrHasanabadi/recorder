@@ -5,3 +5,4 @@ interface RecorderState {
     isBlocked: boolean,
     description: string
 }
+declare module '*.png';

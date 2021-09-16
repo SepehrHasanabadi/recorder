@@ -8,8 +8,12 @@ class App extends React.Component {
   render(){
     return (
         <div className="App">
+            <header className="App-header">
+                <h2>ENJOY RECORDING YOUR VOICE!</h2>
+            </header>
             <Recorder/>
         </div>
+
     );
   }
 }
